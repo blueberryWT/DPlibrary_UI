@@ -15,8 +15,11 @@
 		1869FD061717E82500202BB3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869FD051717E82500202BB3 /* Default.png */; };
 		1869FD081717E82500202BB3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869FD071717E82500202BB3 /* Default@2x.png */; };
 		1869FD0A1717E82500202BB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869FD091717E82500202BB3 /* Default-568h@2x.png */; };
+		58B830789C82DFC6AC6F6586 /* ScrollPageMenuItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83B5C91685BE972CEBF74 /* ScrollPageMenuItems.m */; };
 		58B830BE921140A21EDB6D9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B832F1340B936E1D89E219 /* AppDelegate.m */; };
+		58B831C8780FC827E137ABC8 /* DPScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83B9DAE19097D40446BBB /* DPScrollView.m */; };
 		58B831D8B5FA3C19AC8CE90F /* UserInfo_NoGifts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B832038F49A0923186D8B8 /* UserInfo_NoGifts@2x.png */; };
+		58B832304AEC38BAE77D2F4C /* DPStackGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B8332B4E2AE55843FDE204 /* DPStackGroup.m */; };
 		58B83338BA30B5425630BB66 /* DPAlertInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B831CD9211DBDA7F0D67F3 /* DPAlertInput.m */; };
 		58B83362002B58112F98B57C /* iconBGMenuItemSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B834BB90BA057471000D0E /* iconBGMenuItemSelected@2x.png */; };
 		58B835AD948626AC5FA058B7 /* DPRenderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83C0AE7496B70DCAC1E01 /* DPRenderImageView.m */; };
@@ -50,10 +53,12 @@
 		1869FD071717E82500202BB3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1869FD091717E82500202BB3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		58B83075F45394F4C3B07C33 /* carmeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carmeIcon.png; sourceTree = "<group>"; };
+		58B830C6332F2060B5D1886E /* ScrollPageMenuItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollPageMenuItems.h; sourceTree = "<group>"; };
 		58B831CD9211DBDA7F0D67F3 /* DPAlertInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAlertInput.m; sourceTree = "<group>"; };
 		58B832038F49A0923186D8B8 /* UserInfo_NoGifts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UserInfo_NoGifts@2x.png"; sourceTree = "<group>"; };
 		58B832481EC4F3B339FC5CAB /* UserInfo_NoLabel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UserInfo_NoLabel@2x.png"; sourceTree = "<group>"; };
 		58B832F1340B936E1D89E219 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58B8332B4E2AE55843FDE204 /* DPStackGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPStackGroup.m; sourceTree = "<group>"; };
 		58B833D4DA384962C301AC1E /* DPRenderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPRenderImageView.h; sourceTree = "<group>"; };
 		58B834A7359F7DC9690E7055 /* DPAlertInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAlertInput.h; sourceTree = "<group>"; };
 		58B834BB90BA057471000D0E /* iconBGMenuItemSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBGMenuItemSelected@2x.png"; sourceTree = "<group>"; };
@@ -66,11 +71,16 @@
 		58B839201CD44C9E05E4F234 /* QuadCurveMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadCurveMenuItem.m; sourceTree = "<group>"; };
 		58B83994A327A09324F30E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = DPlibrary_UI/en.lproj/ViewController.xib; sourceTree = SOURCE_ROOT; };
 		58B83A25115D67761EABEB26 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58B83B5C91685BE972CEBF74 /* ScrollPageMenuItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollPageMenuItems.m; sourceTree = "<group>"; };
+		58B83B9DAE19097D40446BBB /* DPScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPScrollView.m; sourceTree = "<group>"; };
 		58B83C0AE7496B70DCAC1E01 /* DPRenderImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPRenderImageView.m; sourceTree = "<group>"; };
+		58B83CB7551A0A060FDF0E3F /* DPScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPScrollView.h; sourceTree = "<group>"; };
 		58B83CB92D2EB351D0F47867 /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 		58B83CBB5EA173712C1D86D0 /* ButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonsView.h; sourceTree = "<group>"; };
 		58B83D22223E94D9BD0E4FC3 /* TagsWallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsWallView.m; sourceTree = "<group>"; };
+		58B83E07203DA4738E087828 /* DPScrollBoardProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPScrollBoardProtocol.h; sourceTree = "<group>"; };
 		58B83E26A9869CDF5F79EDEF /* QuadCurveMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadCurveMenu.m; sourceTree = "<group>"; };
+		58B83E7FB0D5EFF2EEA1645E /* DPStackGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPStackGroup.h; sourceTree = "<group>"; };
 		58B83EA0FCA8592B4DBA70FC /* QuadCurveMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadCurveMenuItem.h; sourceTree = "<group>"; };
 		58B83EB5C82ADEC065B951BE /* TagsWallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsWallView.h; sourceTree = "<group>"; };
 		58B83ECF22C5C83B2E655375 /* iconBGMenuItemSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBGMenuItemSelected.png; sourceTree = "<group>"; };
@@ -182,6 +192,20 @@
 			path = demo;
 			sourceTree = "<group>";
 		};
+		58B836EA9789488D7821D164 /* DPStackGroup */ = {
+			isa = PBXGroup;
+			children = (
+				58B83CB7551A0A060FDF0E3F /* DPScrollView.h */,
+				58B83B9DAE19097D40446BBB /* DPScrollView.m */,
+				58B83E7FB0D5EFF2EEA1645E /* DPStackGroup.h */,
+				58B8332B4E2AE55843FDE204 /* DPStackGroup.m */,
+				58B830C6332F2060B5D1886E /* ScrollPageMenuItems.h */,
+				58B83B5C91685BE972CEBF74 /* ScrollPageMenuItems.m */,
+				58B83E07203DA4738E087828 /* DPScrollBoardProtocol.h */,
+			);
+			path = DPStackGroup;
+			sourceTree = "<group>";
+		};
 		58B83ABAC6061377572D59D1 /* AWESomeMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +230,7 @@
 				58B83ABAC6061377572D59D1 /* AWESomeMenu */,
 				58B83FDCD187CFF9BCECAF44 /* DPButtonView */,
 				58B830CF455D07DB13F9128D /* DPRenderImageView */,
+				58B836EA9789488D7821D164 /* DPStackGroup */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -331,6 +356,9 @@
 				58B83FC3CD1967BE10F2C2D2 /* GifsWallView.m in Sources */,
 				58B83CDDF68FDDCFD2154641 /* TagsWallView.m in Sources */,
 				58B835AD948626AC5FA058B7 /* DPRenderImageView.m in Sources */,
+				58B831C8780FC827E137ABC8 /* DPScrollView.m in Sources */,
+				58B832304AEC38BAE77D2F4C /* DPStackGroup.m in Sources */,
+				58B830789C82DFC6AC6F6586 /* ScrollPageMenuItems.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
