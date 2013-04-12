@@ -7,6 +7,12 @@
 
 #import "ScrollPageMenuItems.h"
 #import "UIView+UU.h"
+#import "UIImage+BeeExtension.h"
+#import "UIColor+BeeExtension.h"
+#import "NSString+BeeExtension.h"
+#import "Bee_UIButton.h"
+#import "NSNumber+BeeExtension.h"
+#import "Bee_Log.h"
 
 @interface ScrollPageMenuItems (private)
 /** [yu]
@@ -82,7 +88,7 @@ DEF_SIGNAL(SELECTED_TITLE_INDEX)
 
     // [yu] 创建一个新的item
     BeeUIButton *titleItem = [[[BeeUIButton alloc] init] autorelease];
-    [titleItem.titleLabel setFont:[DPTools dpFontWitSize:13.0f]];
+    [titleItem.titleLabel setFont:[UIFont systemFontOfSize:13.0f]];
     titleItem.stateNormal.title = title;
     titleItem.stateNormal.titleColor = RGB(151, 151, 151);
     [titleItem sizeToFit];

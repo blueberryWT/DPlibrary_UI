@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 #import "DPScrollBoardProtocol.h"
+#import "Bee_UIBoard.h"
+
 @class ScrollPageMenuItems;
 @class DPScrollView;
 

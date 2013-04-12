@@ -8,9 +8,12 @@
 #import "DPStackGroup.h"
 #import "ScrollPageMenuItems.h"
 #import "UIView+UU.h"
-#import "DPMenuBoard.h"
+//#import "DPMenuBoard.h"
 #import "DPScrollView.h"
-#import "DPBeeAppDelegate.h"
+//#import "DPBeeAppDelegate.h"
+#import "Bee_Log.h"
+#import "NSString+BeeExtension.h"
+#import "Bee_Performance.h"
 
 
 @interface DPStackGroup(Private)
@@ -236,7 +239,7 @@ DEF_SIGNAL(DPSTACKGROUN_INDEX_CHANGE)
         if (self.currentShowIndex == 0 && f == 0) {
             NSInteger index = [self.navigationController.viewControllers indexOfObject:self];
             if (index == 0) {
-                [((DPBeeAppDelegate *) [UIApplication sharedApplication].delegate).mainNav setPaneState:MSNavigationPaneStateOpen animated:YES];
+//                [((DPBeeAppDelegate *) [UIApplication sharedApplication].delegate).mainNav setPaneState:MSNavigationPaneStateOpen animated:YES];
             }else {
                 // 如果不是根视图，则需要返回上一个页面
                 [self sendUISignal:[BeeUIBoard BACK_BUTTON_TOUCHED]];

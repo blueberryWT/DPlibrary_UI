@@ -6,6 +6,7 @@
 
 
 #import <Foundation/Foundation.h>
+#import "Bee_UISignal.h"
 
 @interface ScrollPageMenuItems : UIView
 {
