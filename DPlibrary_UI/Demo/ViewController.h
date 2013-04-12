@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Bee_UITableBoard.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : BeeUITableBoard
 
+
+@property(nonatomic, retain) NSMutableArray *models;
 @end
