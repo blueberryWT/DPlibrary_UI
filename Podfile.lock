@@ -10,6 +10,7 @@ PODS:
     - Reachability
   - ASIHTTPRequest/S3 (1.8.1):
     - Reachability
+  - CSColorizedProgressView (1.0)
   - DPlibrary_Bee (1.0):
     - ASIHTTPRequest
     - FMDB
@@ -24,10 +25,12 @@ PODS:
   - RegexKitLite (4.0)
 
 DEPENDENCIES:
+  - CSColorizedProgressView
   - DPlibrary_Bee
 
 SPEC CHECKSUMS:
   ASIHTTPRequest: a79e32b54f92471bff8979f3b82182f0e9b6992c
+  CSColorizedProgressView: 1b7e32c30c2e7c6880ca51524c4a2bdf3ddf81c5
   DPlibrary_Bee: f32abb3a04f2e8de769b589f2ac075bcf943a1eb
   FMDB: 25566bbc3046fb38ac61bae8399177765361de3a
   JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601

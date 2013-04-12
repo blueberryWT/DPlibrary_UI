@@ -5,6 +5,7 @@
 #define __POD_ASIHTTPRequest_ASIWebPageRequest
 #define __POD_ASIHTTPRequest_CloudFiles
 #define __POD_ASIHTTPRequest_S3
+#define __POD_CSColorizedProgressView
 #define __POD_DPlibrary_Bee
 #define __POD_FMDB
 #define __POD_JSONKit
