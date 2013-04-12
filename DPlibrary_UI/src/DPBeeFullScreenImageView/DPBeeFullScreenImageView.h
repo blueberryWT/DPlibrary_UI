@@ -6,8 +6,11 @@
 
 
 #import <Foundation/Foundation.h>
+#import "Bee_UISignal.h"
 
 @class CSColorizedProgressView;
+@class BeeUIZoomView;
+@class BeeUIButton;
 
 
 @interface DPBeeFullScreenImageView : UIView

@@ -10,6 +10,14 @@
 #import "UIView+UU.h"
 #import "UIView+TapGesture.h"
 #import "UIView+SwipeGesture.h"
+#import "Bee_UIZoomView.h"
+#import "Bee_UIButton.h"
+#import "UIColor+BeeExtension.h"
+#import "UIImage+BeeExtension.h"
+#import "NSString+BeeExtension.h"
+#import "Bee_UIImageView.h"
+#import "Bee_Log.h"
+#import "NSObject+BeeNotification.h"
 
 @interface DPBeeFullScreenImageView(Private)
 -(void) initSelfControls;
@@ -81,7 +89,7 @@ DEF_SIGNAL(HIDDEN_HELP_SIGNAL)
 
     if (nil != self.requestURL) {
         NSString *localPath = self.requestURL[@"messageImageLocationPath"];
-        NSString *netUrlPath = self.requestURL[kMsgResc];
+        NSString *netUrlPath = self.requestURL[@"msgResc"];
         UIImage *cacheImage = nil;
         if (nil != localPath && [localPath notEmpty]) {
             cacheImage = [[BeeImageCache sharedInstance] imageForURL:localPath];
@@ -166,9 +174,12 @@ DEF_SIGNAL(HIDDEN_HELP_SIGNAL)
 
 
     }else if ([signal is:[UIView SWIPE_DOWN]]) {
-        [DPTools showHudWithMessage:@"<tip>  保存中..."];
-//        UIImageWriteToSavedPhotosAlbum(self.dpSourceImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
-        [DPTools saveImageToDuoPengAlbum:self.dpSourceImage WithShowSaveTip:YES];
+//        [DPTools showHudWithMessage:@"<tip>  保存中..."];
+////        UIImageWriteToSavedPhotosAlbum(self.dpSourceImage, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+//        [DPTools saveImageToDuoPengAlbum:self.dpSourceImage WithShowSaveTip:YES];
+
+        [self postNotification:@"savingImage" withObject:self.dpSourceImage];
+
     }else if ([signal is:[DPBeeFullScreenImageView HIDDEN_HELP_SIGNAL]]) {
         [_beeUIButton removeFromSuperview]; // 从父视图中删除
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"helpSaveImage"]; // 将标识保存到磁盘中
@@ -180,16 +191,16 @@ DEF_SIGNAL(HIDDEN_HELP_SIGNAL)
 - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error
   contextInfo:(void *)contextInfo
 {
-    // Was there an error?
-    if (error != NULL) {
-        // Show error message...
-        [DPTools dpShowErrorHUDText:@"<tip>  保存失败  "];
-    }
-    else  // No errors
-    {
-        // Show message image successfully saved
-        [DPTools dpShowSuccessHUDText:@"<tip>  保存成功  "];
-    }
+//    // Was there an error?
+//    if (error != NULL) {
+//        // Show error message...
+//        [DPTools dpShowErrorHUDText:@"<tip>  保存失败  "];
+//    }
+//    else  // No errors
+//    {
+//        // Show message image successfully saved
+//        [DPTools dpShowSuccessHUDText:@"<tip>  保存成功  "];
+//    }
 }
 
 - (void)dealloc {
