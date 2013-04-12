@@ -32,6 +32,7 @@
 		58B83C9B789201586E7C3265 /* iconBGMenuItemNor.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83F316FD740A79B3C7A52 /* iconBGMenuItemNor.png */; };
 		58B83CD371ADF3843A13C36F /* iconBGMenuItemSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83ECF22C5C83B2E655375 /* iconBGMenuItemSelected.png */; };
 		58B83CDDF68FDDCFD2154641 /* TagsWallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83D22223E94D9BD0E4FC3 /* TagsWallView.m */; };
+		58B83D07848467D9B6B7E34B /* DPBeeFullScreenImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B834F34AA93C92542927D6 /* DPBeeFullScreenImageView.m */; };
 		58B83D9BBA2314F58AA4A873 /* carmeIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B8361C74FD37F6D05525CC /* carmeIcon@2x.png */; };
 		58B83DE8B804910E384C569E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B83BEE7DD7226CD6AA945E /* ViewController.xib */; };
 		58B83F05042D8E914FD0951A /* carmeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83075F45394F4C3B07C33 /* carmeIcon.png */; };
@@ -59,9 +60,11 @@
 		58B832481EC4F3B339FC5CAB /* UserInfo_NoLabel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UserInfo_NoLabel@2x.png"; sourceTree = "<group>"; };
 		58B832F1340B936E1D89E219 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		58B8332B4E2AE55843FDE204 /* DPStackGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPStackGroup.m; sourceTree = "<group>"; };
+		58B83358F3DEA73638A5E0BC /* DPBeeFullScreenImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBeeFullScreenImageView.h; sourceTree = "<group>"; };
 		58B833D4DA384962C301AC1E /* DPRenderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPRenderImageView.h; sourceTree = "<group>"; };
 		58B834A7359F7DC9690E7055 /* DPAlertInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAlertInput.h; sourceTree = "<group>"; };
 		58B834BB90BA057471000D0E /* iconBGMenuItemSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBGMenuItemSelected@2x.png"; sourceTree = "<group>"; };
+		58B834F34AA93C92542927D6 /* DPBeeFullScreenImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBeeFullScreenImageView.m; sourceTree = "<group>"; };
 		58B8352C0AD47AB74C20C038 /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
 		58B8358120B36BA8A9B9FFC1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		58B8361C74FD37F6D05525CC /* carmeIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carmeIcon@2x.png"; sourceTree = "<group>"; };
@@ -206,6 +209,15 @@
 			path = DPStackGroup;
 			sourceTree = "<group>";
 		};
+		58B8373D15BC09E6B2E8D866 /* DPBeeFullScreenImageView */ = {
+			isa = PBXGroup;
+			children = (
+				58B83358F3DEA73638A5E0BC /* DPBeeFullScreenImageView.h */,
+				58B834F34AA93C92542927D6 /* DPBeeFullScreenImageView.m */,
+			);
+			path = DPBeeFullScreenImageView;
+			sourceTree = "<group>";
+		};
 		58B83ABAC6061377572D59D1 /* AWESomeMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +243,7 @@
 				58B83FDCD187CFF9BCECAF44 /* DPButtonView */,
 				58B830CF455D07DB13F9128D /* DPRenderImageView */,
 				58B836EA9789488D7821D164 /* DPStackGroup */,
+				58B8373D15BC09E6B2E8D866 /* DPBeeFullScreenImageView */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -359,6 +372,7 @@
 				58B831C8780FC827E137ABC8 /* DPScrollView.m in Sources */,
 				58B832304AEC38BAE77D2F4C /* DPStackGroup.m in Sources */,
 				58B830789C82DFC6AC6F6586 /* ScrollPageMenuItems.m in Sources */,
+				58B83D07848467D9B6B7E34B /* DPBeeFullScreenImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
