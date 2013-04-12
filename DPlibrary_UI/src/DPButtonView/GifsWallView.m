@@ -9,6 +9,7 @@
 #import "GifsWallView.h"
 #import "UIView+UU.h"
 #import "UIView+TapGesture.h"
+#import "UIColor+BeeExtension.h"
 
 @implementation GifsWallView
 @synthesize labelFooter = _labelFooter;
@@ -57,7 +58,7 @@
     if (!_labelFooter) {
         _labelFooter = [[UILabel alloc] initWithFrame:CGRectMake(0, button.bottom + 2, 0, 0)];
         [_labelFooter setBackgroundColor:[UIColor clearColor]];
-        [_labelFooter setFont:[DPTools dpFontWitSize:15.0f]];
+        [_labelFooter setFont:[UIFont systemFontOfSize:15.0f]];
         [_labelFooter setText:@"还没有朋友给您送礼物"];
         [_labelFooter sizeToFit];
         [_labelFooter setTextColor:RGB(99, 99, 99)];
@@ -99,7 +100,7 @@
 -(NSString *)getRenderImagePathWithIndex:(NSUInteger)index {
     id element = [self.dataArray objectAtIndex:index];
     if (element && [element isKindOfClass:[NSDictionary class]]) {
-        NSString *imageAddr = ((NSDictionary *) element)[kImage_Addr];
+        NSString *imageAddr = ((NSDictionary *) element)[@"image_addr"];
         return imageAddr;
     }
     return @"";

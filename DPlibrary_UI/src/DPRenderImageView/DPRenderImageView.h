@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class BeeUIActivityIndicatorView;
+
 
 @interface DPRenderImageView : UIView
 

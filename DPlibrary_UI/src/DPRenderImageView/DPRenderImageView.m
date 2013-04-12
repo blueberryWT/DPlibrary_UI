@@ -6,6 +6,10 @@
 
 
 #import "DPRenderImageView.h"
+#import "Bee_UIActivityIndicatorView.h"
+#import "Bee_Network.h"
+#import "UIView+BeeQuery.h"
+#import "Bee_Performance.h"
 
 
 @interface DPRenderImageView(Private)
@@ -283,7 +287,15 @@
     [self setNeedsDisplay];
 }
 
-
+void mydrawImageToContent(CGContextRef context, CGImageRef image , CGRect rect){
+    CGContextSaveGState(context);
+    CGContextTranslateCTM(context, rect.origin.x, rect.origin.y);//4
+    CGContextTranslateCTM(context, 0, rect.size.height);//3
+    CGContextScaleCTM(context, 1.0, -1.0);//2
+    CGContextTranslateCTM(context, -rect.origin.x, -rect.origin.y);//1
+    CGContextDrawImage(context, rect, image);
+    CGContextRestoreGState(context);
+}
 
 
 // 渲染的部分
@@ -318,8 +330,11 @@
     }
     /**Author:于同非 Description:渲染图片*/
     CGImageRef image = CGImageRetain(self.renderImage.CGImage);
-    drawImageToContent(context, image, CGRectMake(boxRect.origin.x, boxRect.origin.y, boxRect.size.width, boxRect.size.height));
+    mydrawImageToContent(context, image, CGRectMake(boxRect.origin.x, boxRect.origin.y, boxRect.size.width, boxRect.size.height));
     CGImageRelease(image);
 }
+
+
+
 
 @end

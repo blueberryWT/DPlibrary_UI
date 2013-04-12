@@ -8,8 +8,11 @@
 
 #import "ButtonsView.h"
 #import "UIView+UU.h"
-#import "UIView+TapGesture.h"
 #import "DPRenderImageView.h"
+#import "Bee_Log.h"
+#import "UIView+TapGesture.h"
+#import "Bee_UILabel.h"
+#import "UIColor+BeeExtension.h"
 
 
 @implementation ButtonsView
@@ -88,7 +91,7 @@
                 if (title) {
                     BeeUILabel *label = [[[BeeUILabel alloc] initWithFrame:CGRectMake(0, 0, dpCustomImageView.width, dpCustomImageView.height)] autorelease];
                     [label setText:title];
-                    [label setFont:[DPTools dpFontWitSize:13.0f]];
+                    [label setFont:[UIFont systemFontOfSize:13.0f]];
                     [label setTextColor:RGB(117, 117, 117)];
                     [dpCustomImageView addSubview:label];
                 }

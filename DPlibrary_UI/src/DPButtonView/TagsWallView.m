@@ -8,6 +8,7 @@
 
 #import "TagsWallView.h"
 #import "UIView+UU.h"
+#import "UIColor+BeeExtension.h"
 
 @implementation TagsWallView
 @synthesize labelFooter = _labelFooter;
@@ -53,7 +54,7 @@
     if (!_labelFooter) {
         _labelFooter = [[UILabel alloc] initWithFrame:CGRectMake(0, button.bottom + 2, 0, 0)];
         [_labelFooter setBackgroundColor:[UIColor clearColor]];
-        [_labelFooter setFont:[DPTools dpFontWitSize:15.0f]];
+        [_labelFooter setFont:[UIFont systemFontOfSize:15.0f]];
         [_labelFooter setText:@"您还没有添加兴趣标签"];
         [_labelFooter sizeToFit];
         [_labelFooter setTextColor:RGB(99, 99, 99)];
