@@ -17,7 +17,7 @@
         if (alertImage) {
             self.img = alertImage;
         }
-
+        [self popWarningView];
 
     }
     return self;
