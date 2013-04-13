@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface DPWarningView : UIView
-{
-    UIViewController * _viewController;
-}
--(id)initWithViewController:(UIViewController*)viewController;
--(void)popWarningView;
+
+
+@property(nonatomic, retain) UIImage *img;
+
+-(id) initWithAlertImage:(UIImage *)alertImage;
 @end

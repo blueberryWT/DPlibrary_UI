@@ -24,7 +24,7 @@
     //CGContextSetFillColorWithColor(context, [UIColor yellowColor].CGColor);
    [[UIColor colorWithRed:169/255.0 green:169/255.0 blue:169/255.0 alpha:1.0] setFill];
        
-    [[self placeholder] drawInRect:rect withFont:[DPTools dpFontWitSize:17.0f]];
+    [[self placeholder] drawInRect:rect withFont:[UIFont systemFontOfSize:17.0f]];
 }
 /*
 // Only override drawRect: if you perform custom drawing.
