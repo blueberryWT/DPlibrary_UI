@@ -17,20 +17,29 @@
 		1869FD0A1717E82500202BB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869FD091717E82500202BB3 /* Default-568h@2x.png */; };
 		58B830789C82DFC6AC6F6586 /* ScrollPageMenuItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83B5C91685BE972CEBF74 /* ScrollPageMenuItems.m */; };
 		58B830BE921140A21EDB6D9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B832F1340B936E1D89E219 /* AppDelegate.m */; };
+		58B831263314FBAD68DCDF66 /* MessageEntryInputField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B8354D386724E177093061 /* MessageEntryInputField@2x.png */; };
 		58B831C8780FC827E137ABC8 /* DPScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83B9DAE19097D40446BBB /* DPScrollView.m */; };
 		58B831D8B5FA3C19AC8CE90F /* UserInfo_NoGifts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B832038F49A0923186D8B8 /* UserInfo_NoGifts@2x.png */; };
 		58B832304AEC38BAE77D2F4C /* DPStackGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B8332B4E2AE55843FDE204 /* DPStackGroup.m */; };
 		58B832F264C9D55FA6C2571D /* DPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B8362FA6742812B2032627 /* DPTextField.m */; };
 		58B83338BA30B5425630BB66 /* DPAlertInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B831CD9211DBDA7F0D67F3 /* DPAlertInput.m */; };
+		58B83339910E9DD7E4DF8AA8 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83C0F66B65C2BDA0EED80 /* HPTextViewInternal.m */; };
 		58B83362002B58112F98B57C /* iconBGMenuItemSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B834BB90BA057471000D0E /* iconBGMenuItemSelected@2x.png */; };
+		58B83548E02083368E6FCE27 /* MessageEntrySendButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83DB2F739FC8A0D2647C7 /* MessageEntrySendButton@2x.png */; };
 		58B835AD948626AC5FA058B7 /* DPRenderImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83C0AE7496B70DCAC1E01 /* DPRenderImageView.m */; };
+		58B835CDA508FD07A8B30F82 /* MessageEntryBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83B279253328C7395F725 /* MessageEntryBackground@2x.png */; };
 		58B835FCA14689515EA6A4A3 /* QuadCurveMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83E26A9869CDF5F79EDEF /* QuadCurveMenu.m */; };
+		58B836836C9F429B056F81A0 /* MessageEntryBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B837F4C4CCDE3050A3C088 /* MessageEntryBackground.png */; };
 		58B836EA602BF11AB5ED1486 /* ButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83F9980D50401A4BBCA3A /* ButtonsView.m */; };
 		58B8370598D0249F9C8933FC /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83CB92D2EB351D0F47867 /* ListCell.m */; };
+		58B8378D1497E71ABAFEA7E5 /* MessageEntrySendButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B834C8D472D2A8163ED10E /* MessageEntrySendButtonPressed.png */; };
+		58B837FF4DB3CD873A2AAAEC /* MessageEntryInputField.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B830700B7538BAC2F49F63 /* MessageEntryInputField.png */; };
 		58B838823F5F89CC23C1BD6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B8358120B36BA8A9B9FFC1 /* ViewController.m */; };
 		58B8394DB3688F3FA22D75FF /* QuadCurveMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B839201CD44C9E05E4F234 /* QuadCurveMenuItem.m */; };
 		58B8394E7BD88910F0287BA1 /* DPWarningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83CC75205BAD8519A48D3 /* DPWarningView.m */; };
 		58B83A3AD5542D6FF04EB55D /* UserInfo_NoLabel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B832481EC4F3B339FC5CAB /* UserInfo_NoLabel@2x.png */; };
+		58B83AECE756B03F3EE3B2AB /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83F3AC91125CDA46F416A /* HPGrowingTextView.m */; };
+		58B83C4AE27408E1C10D85C2 /* MessageEntrySendButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83CFADE22C585BE641225 /* MessageEntrySendButton.png */; };
 		58B83C68181EAFFD46D87D7E /* DPButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83B59AF9931F60158F7C4 /* DPButton.m */; };
 		58B83C9B789201586E7C3265 /* iconBGMenuItemNor.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83F316FD740A79B3C7A52 /* iconBGMenuItemNor.png */; };
 		58B83CD371ADF3843A13C36F /* iconBGMenuItemSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83ECF22C5C83B2E655375 /* iconBGMenuItemSelected.png */; };
@@ -38,6 +47,7 @@
 		58B83D07848467D9B6B7E34B /* DPBeeFullScreenImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B834F34AA93C92542927D6 /* DPBeeFullScreenImageView.m */; };
 		58B83D9BBA2314F58AA4A873 /* carmeIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B8361C74FD37F6D05525CC /* carmeIcon@2x.png */; };
 		58B83DE8B804910E384C569E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B83BEE7DD7226CD6AA945E /* ViewController.xib */; };
+		58B83E7C0DEC226B8EDB6654 /* MessageEntrySendButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B838B0FC7E9551886A0BDD /* MessageEntrySendButtonPressed@2x.png */; };
 		58B83F05042D8E914FD0951A /* carmeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83075F45394F4C3B07C33 /* carmeIcon.png */; };
 		58B83F3930D3FC0BA943FF66 /* iconBGMenuItemNor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83FB45F8115B78EA45B04 /* iconBGMenuItemNor@2x.png */; };
 		58B83FC3CD1967BE10F2C2D2 /* GifsWallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83F00D4E6B3442A115B29 /* GifsWallView.m */; };
@@ -56,6 +66,7 @@
 		1869FD051717E82500202BB3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1869FD071717E82500202BB3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1869FD091717E82500202BB3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		58B830700B7538BAC2F49F63 /* MessageEntryInputField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntryInputField.png; sourceTree = "<group>"; };
 		58B83075F45394F4C3B07C33 /* carmeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carmeIcon.png; sourceTree = "<group>"; };
 		58B830C6332F2060B5D1886E /* ScrollPageMenuItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollPageMenuItems.h; sourceTree = "<group>"; };
 		58B831CD9211DBDA7F0D67F3 /* DPAlertInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPAlertInput.m; sourceTree = "<group>"; };
@@ -66,30 +77,40 @@
 		58B83358F3DEA73638A5E0BC /* DPBeeFullScreenImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPBeeFullScreenImageView.h; sourceTree = "<group>"; };
 		58B833D4DA384962C301AC1E /* DPRenderImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPRenderImageView.h; sourceTree = "<group>"; };
 		58B834A7359F7DC9690E7055 /* DPAlertInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPAlertInput.h; sourceTree = "<group>"; };
+		58B834A9B51FFC51BB25B288 /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTextViewInternal.h; sourceTree = "<group>"; };
 		58B834BB90BA057471000D0E /* iconBGMenuItemSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBGMenuItemSelected@2x.png"; sourceTree = "<group>"; };
+		58B834C8D472D2A8163ED10E /* MessageEntrySendButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntrySendButtonPressed.png; sourceTree = "<group>"; };
 		58B834F34AA93C92542927D6 /* DPBeeFullScreenImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPBeeFullScreenImageView.m; sourceTree = "<group>"; };
 		58B8352C0AD47AB74C20C038 /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		58B8354D386724E177093061 /* MessageEntryInputField@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageEntryInputField@2x.png"; sourceTree = "<group>"; };
 		58B8358120B36BA8A9B9FFC1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		58B8361C74FD37F6D05525CC /* carmeIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carmeIcon@2x.png"; sourceTree = "<group>"; };
 		58B8362FA6742812B2032627 /* DPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPTextField.m; sourceTree = "<group>"; };
 		58B8375AE80376F87A71C1BD /* GifsWallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifsWallView.h; sourceTree = "<group>"; };
 		58B8378A5EF94CCEEDC51C5D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		58B837C44C891288BF1F7C5A /* QuadCurveMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadCurveMenu.h; sourceTree = "<group>"; };
+		58B837F4C4CCDE3050A3C088 /* MessageEntryBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntryBackground.png; sourceTree = "<group>"; };
+		58B838B0FC7E9551886A0BDD /* MessageEntrySendButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageEntrySendButtonPressed@2x.png"; sourceTree = "<group>"; };
 		58B839201CD44C9E05E4F234 /* QuadCurveMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadCurveMenuItem.m; sourceTree = "<group>"; };
 		58B83994A327A09324F30E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = DPlibrary_UI/en.lproj/ViewController.xib; sourceTree = SOURCE_ROOT; };
 		58B839CB3352AA7254F3271A /* DPWarningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPWarningView.h; sourceTree = "<group>"; };
 		58B83A25115D67761EABEB26 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58B83B279253328C7395F725 /* MessageEntryBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageEntryBackground@2x.png"; sourceTree = "<group>"; };
 		58B83B59AF9931F60158F7C4 /* DPButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPButton.m; sourceTree = "<group>"; };
 		58B83B5C91685BE972CEBF74 /* ScrollPageMenuItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollPageMenuItems.m; sourceTree = "<group>"; };
 		58B83B9DAE19097D40446BBB /* DPScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPScrollView.m; sourceTree = "<group>"; };
 		58B83C0AE7496B70DCAC1E01 /* DPRenderImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPRenderImageView.m; sourceTree = "<group>"; };
+		58B83C0F66B65C2BDA0EED80 /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextViewInternal.m; sourceTree = "<group>"; };
 		58B83CB7551A0A060FDF0E3F /* DPScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPScrollView.h; sourceTree = "<group>"; };
 		58B83CB92D2EB351D0F47867 /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 		58B83CBB5EA173712C1D86D0 /* ButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonsView.h; sourceTree = "<group>"; };
 		58B83CC75205BAD8519A48D3 /* DPWarningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPWarningView.m; sourceTree = "<group>"; };
+		58B83CFADE22C585BE641225 /* MessageEntrySendButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntrySendButton.png; sourceTree = "<group>"; };
 		58B83D22223E94D9BD0E4FC3 /* TagsWallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsWallView.m; sourceTree = "<group>"; };
 		58B83D33AF75C75DED2B06C1 /* DPButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPButton.h; sourceTree = "<group>"; };
+		58B83DB2F739FC8A0D2647C7 /* MessageEntrySendButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageEntrySendButton@2x.png"; sourceTree = "<group>"; };
 		58B83E07203DA4738E087828 /* DPScrollBoardProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPScrollBoardProtocol.h; sourceTree = "<group>"; };
+		58B83E26571CDBAFEB549785 /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGrowingTextView.h; sourceTree = "<group>"; };
 		58B83E26A9869CDF5F79EDEF /* QuadCurveMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuadCurveMenu.m; sourceTree = "<group>"; };
 		58B83E55ED0CF8CF220DF667 /* DPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPTextField.h; sourceTree = "<group>"; };
 		58B83E7FB0D5EFF2EEA1645E /* DPStackGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPStackGroup.h; sourceTree = "<group>"; };
@@ -98,6 +119,7 @@
 		58B83ECF22C5C83B2E655375 /* iconBGMenuItemSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBGMenuItemSelected.png; sourceTree = "<group>"; };
 		58B83F00D4E6B3442A115B29 /* GifsWallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifsWallView.m; sourceTree = "<group>"; };
 		58B83F316FD740A79B3C7A52 /* iconBGMenuItemNor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBGMenuItemNor.png; sourceTree = "<group>"; };
+		58B83F3AC91125CDA46F416A /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
 		58B83F9980D50401A4BBCA3A /* ButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonsView.m; sourceTree = "<group>"; };
 		58B83FB45F8115B78EA45B04 /* iconBGMenuItemNor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBGMenuItemNor@2x.png"; sourceTree = "<group>"; };
 		8B3A8736BFFA4CE3A32614F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -262,6 +284,25 @@
 			path = AWESomeMenu;
 			sourceTree = "<group>";
 		};
+		58B83BBE2C2AEB373A51900F /* HPGrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				58B83E26571CDBAFEB549785 /* HPGrowingTextView.h */,
+				58B83F3AC91125CDA46F416A /* HPGrowingTextView.m */,
+				58B834A9B51FFC51BB25B288 /* HPTextViewInternal.h */,
+				58B83C0F66B65C2BDA0EED80 /* HPTextViewInternal.m */,
+				58B837F4C4CCDE3050A3C088 /* MessageEntryBackground.png */,
+				58B830700B7538BAC2F49F63 /* MessageEntryInputField.png */,
+				58B83CFADE22C585BE641225 /* MessageEntrySendButton.png */,
+				58B83B279253328C7395F725 /* MessageEntryBackground@2x.png */,
+				58B8354D386724E177093061 /* MessageEntryInputField@2x.png */,
+				58B83DB2F739FC8A0D2647C7 /* MessageEntrySendButton@2x.png */,
+				58B834C8D472D2A8163ED10E /* MessageEntrySendButtonPressed.png */,
+				58B838B0FC7E9551886A0BDD /* MessageEntrySendButtonPressed@2x.png */,
+			);
+			path = HPGrowingTextView;
+			sourceTree = "<group>";
+		};
 		58B83D23FB0F22D2427E8EF8 /* src */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +315,7 @@
 				58B83769666C25B259E78F21 /* DPButton */,
 				58B83015C543D5C6A68C3F4F /* DPTextField */,
 				58B83F6170A4B22B2C55E9EE /* DPWarring */,
+				58B83BBE2C2AEB373A51900F /* HPGrowingTextView */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -369,6 +411,14 @@
 				58B83362002B58112F98B57C /* iconBGMenuItemSelected@2x.png in Resources */,
 				58B831D8B5FA3C19AC8CE90F /* UserInfo_NoGifts@2x.png in Resources */,
 				58B83A3AD5542D6FF04EB55D /* UserInfo_NoLabel@2x.png in Resources */,
+				58B836836C9F429B056F81A0 /* MessageEntryBackground.png in Resources */,
+				58B837FF4DB3CD873A2AAAEC /* MessageEntryInputField.png in Resources */,
+				58B83C4AE27408E1C10D85C2 /* MessageEntrySendButton.png in Resources */,
+				58B835CDA508FD07A8B30F82 /* MessageEntryBackground@2x.png in Resources */,
+				58B831263314FBAD68DCDF66 /* MessageEntryInputField@2x.png in Resources */,
+				58B83548E02083368E6FCE27 /* MessageEntrySendButton@2x.png in Resources */,
+				58B8378D1497E71ABAFEA7E5 /* MessageEntrySendButtonPressed.png in Resources */,
+				58B83E7C0DEC226B8EDB6654 /* MessageEntrySendButtonPressed@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +465,8 @@
 				58B83C68181EAFFD46D87D7E /* DPButton.m in Sources */,
 				58B832F264C9D55FA6C2571D /* DPTextField.m in Sources */,
 				58B8394E7BD88910F0287BA1 /* DPWarningView.m in Sources */,
+				58B83AECE756B03F3EE3B2AB /* HPGrowingTextView.m in Sources */,
+				58B83339910E9DD7E4DF8AA8 /* HPTextViewInternal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
