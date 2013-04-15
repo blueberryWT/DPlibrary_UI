@@ -15,6 +15,9 @@
 		1869FD061717E82500202BB3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869FD051717E82500202BB3 /* Default.png */; };
 		1869FD081717E82500202BB3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869FD071717E82500202BB3 /* Default@2x.png */; };
 		1869FD0A1717E82500202BB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1869FD091717E82500202BB3 /* Default-568h@2x.png */; };
+		18B0CBDA171BD11500498D53 /* HSAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CBD5171BD11500498D53 /* HSAbstractTableViewCell.m */; };
+		18B0CBDB171BD11500498D53 /* HSBaseTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CBD7171BD11500498D53 /* HSBaseTableViewDelegate.m */; };
+		18B0CBDC171BD11500498D53 /* HSSimpleTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CBD9171BD11500498D53 /* HSSimpleTableViewDataSource.m */; };
 		58B830789C82DFC6AC6F6586 /* ScrollPageMenuItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83B5C91685BE972CEBF74 /* ScrollPageMenuItems.m */; };
 		58B830BE921140A21EDB6D9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B832F1340B936E1D89E219 /* AppDelegate.m */; };
 		58B831263314FBAD68DCDF66 /* MessageEntryInputField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B8354D386724E177093061 /* MessageEntryInputField@2x.png */; };
@@ -51,7 +54,7 @@
 		58B83F05042D8E914FD0951A /* carmeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83075F45394F4C3B07C33 /* carmeIcon.png */; };
 		58B83F3930D3FC0BA943FF66 /* iconBGMenuItemNor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B83FB45F8115B78EA45B04 /* iconBGMenuItemNor@2x.png */; };
 		58B83FC3CD1967BE10F2C2D2 /* GifsWallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83F00D4E6B3442A115B29 /* GifsWallView.m */; };
-		68A4EE5FD5D648758E104629 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3A8736BFFA4CE3A32614F0 /* libPods.a */; settings = {}; };
+		68A4EE5FD5D648758E104629 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3A8736BFFA4CE3A32614F0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +69,12 @@
 		1869FD051717E82500202BB3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1869FD071717E82500202BB3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1869FD091717E82500202BB3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18B0CBD4171BD11500498D53 /* HSAbstractTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSAbstractTableViewCell.h; sourceTree = "<group>"; };
+		18B0CBD5171BD11500498D53 /* HSAbstractTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSAbstractTableViewCell.m; sourceTree = "<group>"; };
+		18B0CBD6171BD11500498D53 /* HSBaseTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBaseTableViewDelegate.h; sourceTree = "<group>"; };
+		18B0CBD7171BD11500498D53 /* HSBaseTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBaseTableViewDelegate.m; sourceTree = "<group>"; };
+		18B0CBD8171BD11500498D53 /* HSSimpleTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSimpleTableViewDataSource.h; sourceTree = "<group>"; };
+		18B0CBD9171BD11500498D53 /* HSSimpleTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSSimpleTableViewDataSource.m; sourceTree = "<group>"; };
 		58B830700B7538BAC2F49F63 /* MessageEntryInputField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntryInputField.png; sourceTree = "<group>"; };
 		58B83075F45394F4C3B07C33 /* carmeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carmeIcon.png; sourceTree = "<group>"; };
 		58B830C6332F2060B5D1886E /* ScrollPageMenuItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollPageMenuItems.h; sourceTree = "<group>"; };
@@ -122,7 +131,7 @@
 		58B83F3AC91125CDA46F416A /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
 		58B83F9980D50401A4BBCA3A /* ButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonsView.m; sourceTree = "<group>"; };
 		58B83FB45F8115B78EA45B04 /* iconBGMenuItemNor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconBGMenuItemNor@2x.png"; sourceTree = "<group>"; };
-		8B3A8736BFFA4CE3A32614F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3A8736BFFA4CE3A32614F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4391642FE34B8B8096F91F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -192,6 +201,19 @@
 				1869FD091717E82500202BB3 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B0CBD3171BD11500498D53 /* YQTableView */ = {
+			isa = PBXGroup;
+			children = (
+				18B0CBD4171BD11500498D53 /* HSAbstractTableViewCell.h */,
+				18B0CBD5171BD11500498D53 /* HSAbstractTableViewCell.m */,
+				18B0CBD6171BD11500498D53 /* HSBaseTableViewDelegate.h */,
+				18B0CBD7171BD11500498D53 /* HSBaseTableViewDelegate.m */,
+				18B0CBD8171BD11500498D53 /* HSSimpleTableViewDataSource.h */,
+				18B0CBD9171BD11500498D53 /* HSSimpleTableViewDataSource.m */,
+			);
+			path = YQTableView;
 			sourceTree = "<group>";
 		};
 		58B83015C543D5C6A68C3F4F /* DPTextField */ = {
@@ -306,6 +328,7 @@
 		58B83D23FB0F22D2427E8EF8 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				18B0CBD3171BD11500498D53 /* YQTableView */,
 				58B833B396B5A8989A0F69D3 /* DPInputAlert */,
 				58B83ABAC6061377572D59D1 /* AWESomeMenu */,
 				58B83FDCD187CFF9BCECAF44 /* DPButtonView */,
@@ -384,8 +407,6 @@
 			mainGroup = 1869FCE71717E82500202BB3;
 			productRefGroup = 1869FCF11717E82500202BB3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				1869FCEF1717E82500202BB3 /* DPlibrary_UI */,
@@ -438,7 +459,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -467,6 +487,9 @@
 				58B8394E7BD88910F0287BA1 /* DPWarningView.m in Sources */,
 				58B83AECE756B03F3EE3B2AB /* HPGrowingTextView.m in Sources */,
 				58B83339910E9DD7E4DF8AA8 /* HPTextViewInternal.m in Sources */,
+				18B0CBDA171BD11500498D53 /* HSAbstractTableViewCell.m in Sources */,
+				18B0CBDB171BD11500498D53 /* HSBaseTableViewDelegate.m in Sources */,
+				18B0CBDC171BD11500498D53 /* HSSimpleTableViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +614,7 @@
 				1869FD151717E82500202BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
