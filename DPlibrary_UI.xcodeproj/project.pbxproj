@@ -18,6 +18,7 @@
 		18B0CBDA171BD11500498D53 /* HSAbstractTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CBD5171BD11500498D53 /* HSAbstractTableViewCell.m */; };
 		18B0CBDB171BD11500498D53 /* HSBaseTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CBD7171BD11500498D53 /* HSBaseTableViewDelegate.m */; };
 		18B0CBDC171BD11500498D53 /* HSSimpleTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CBD9171BD11500498D53 /* HSSimpleTableViewDataSource.m */; };
+		18B0CBE0171BDB9400498D53 /* SSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CBDF171BDB9400498D53 /* SSTextView.m */; };
 		58B830789C82DFC6AC6F6586 /* ScrollPageMenuItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83B5C91685BE972CEBF74 /* ScrollPageMenuItems.m */; };
 		58B830BE921140A21EDB6D9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B832F1340B936E1D89E219 /* AppDelegate.m */; };
 		58B831263314FBAD68DCDF66 /* MessageEntryInputField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B8354D386724E177093061 /* MessageEntryInputField@2x.png */; };
@@ -75,6 +76,8 @@
 		18B0CBD7171BD11500498D53 /* HSBaseTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBaseTableViewDelegate.m; sourceTree = "<group>"; };
 		18B0CBD8171BD11500498D53 /* HSSimpleTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSimpleTableViewDataSource.h; sourceTree = "<group>"; };
 		18B0CBD9171BD11500498D53 /* HSSimpleTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSSimpleTableViewDataSource.m; sourceTree = "<group>"; };
+		18B0CBDE171BDB9400498D53 /* SSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTextView.h; sourceTree = "<group>"; };
+		18B0CBDF171BDB9400498D53 /* SSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTextView.m; sourceTree = "<group>"; };
 		58B830700B7538BAC2F49F63 /* MessageEntryInputField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntryInputField.png; sourceTree = "<group>"; };
 		58B83075F45394F4C3B07C33 /* carmeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carmeIcon.png; sourceTree = "<group>"; };
 		58B830C6332F2060B5D1886E /* ScrollPageMenuItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollPageMenuItems.h; sourceTree = "<group>"; };
@@ -216,6 +219,15 @@
 			path = YQTableView;
 			sourceTree = "<group>";
 		};
+		18B0CBDD171BDB9400498D53 /* SSTextView */ = {
+			isa = PBXGroup;
+			children = (
+				18B0CBDE171BDB9400498D53 /* SSTextView.h */,
+				18B0CBDF171BDB9400498D53 /* SSTextView.m */,
+			);
+			path = SSTextView;
+			sourceTree = "<group>";
+		};
 		58B83015C543D5C6A68C3F4F /* DPTextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +340,7 @@
 		58B83D23FB0F22D2427E8EF8 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				18B0CBDD171BDB9400498D53 /* SSTextView */,
 				18B0CBD3171BD11500498D53 /* YQTableView */,
 				58B833B396B5A8989A0F69D3 /* DPInputAlert */,
 				58B83ABAC6061377572D59D1 /* AWESomeMenu */,
@@ -490,6 +503,7 @@
 				18B0CBDA171BD11500498D53 /* HSAbstractTableViewCell.m in Sources */,
 				18B0CBDB171BD11500498D53 /* HSBaseTableViewDelegate.m in Sources */,
 				18B0CBDC171BD11500498D53 /* HSSimpleTableViewDataSource.m in Sources */,
+				18B0CBE0171BDB9400498D53 /* SSTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
