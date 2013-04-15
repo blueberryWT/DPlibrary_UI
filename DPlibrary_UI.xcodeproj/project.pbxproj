@@ -27,7 +27,6 @@
 		18B0CBF3171BDFCB00498D53 /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CBED171BDFCB00498D53 /* PopoverView.m */; };
 		18B0CBF4171BDFCB00498D53 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0CBEE171BDFCB00498D53 /* success.png */; };
 		18B0CBF5171BDFCB00498D53 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0CBEF171BDFCB00498D53 /* success@2x.png */; };
-		18B0CBF9171BE5F900498D53 /* MDCParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CBF8171BE5F900498D53 /* MDCParallaxView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		58B830789C82DFC6AC6F6586 /* ScrollPageMenuItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83B5C91685BE972CEBF74 /* ScrollPageMenuItems.m */; };
 		58B830BE921140A21EDB6D9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B832F1340B936E1D89E219 /* AppDelegate.m */; };
 		58B831263314FBAD68DCDF66 /* MessageEntryInputField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B8354D386724E177093061 /* MessageEntryInputField@2x.png */; };
@@ -98,8 +97,6 @@
 		18B0CBED171BDFCB00498D53 /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
 		18B0CBEE171BDFCB00498D53 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
 		18B0CBEF171BDFCB00498D53 /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
-		18B0CBF7171BE5F900498D53 /* MDCParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCParallaxView.h; sourceTree = "<group>"; };
-		18B0CBF8171BE5F900498D53 /* MDCParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCParallaxView.m; sourceTree = "<group>"; };
 		58B830700B7538BAC2F49F63 /* MessageEntryInputField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntryInputField.png; sourceTree = "<group>"; };
 		58B83075F45394F4C3B07C33 /* carmeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carmeIcon.png; sourceTree = "<group>"; };
 		58B830C6332F2060B5D1886E /* ScrollPageMenuItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollPageMenuItems.h; sourceTree = "<group>"; };
@@ -275,15 +272,6 @@
 			path = popMenu;
 			sourceTree = "<group>";
 		};
-		18B0CBF6171BE5F800498D53 /* MDCParallaxView */ = {
-			isa = PBXGroup;
-			children = (
-				18B0CBF7171BE5F900498D53 /* MDCParallaxView.h */,
-				18B0CBF8171BE5F900498D53 /* MDCParallaxView.m */,
-			);
-			path = MDCParallaxView;
-			sourceTree = "<group>";
-		};
 		58B83015C543D5C6A68C3F4F /* DPTextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,7 +384,6 @@
 		58B83D23FB0F22D2427E8EF8 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				18B0CBF6171BE5F800498D53 /* MDCParallaxView */,
 				18B0CBE8171BDFCB00498D53 /* popMenu */,
 				18B0CBE1171BDDC500498D53 /* QBTitleView */,
 				18B0CBDD171BDB9400498D53 /* SSTextView */,
@@ -571,7 +558,6 @@
 				18B0CBE6171BDDC500498D53 /* QBTitleView.m in Sources */,
 				18B0CBE7171BDDC500498D53 /* UIImage+tintedImage.m in Sources */,
 				18B0CBF3171BDFCB00498D53 /* PopoverView.m in Sources */,
-				18B0CBF9171BE5F900498D53 /* MDCParallaxView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
