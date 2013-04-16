@@ -7,8 +7,10 @@
 //
 
 #import "LeveyPopListView.h"
-#import "DPUserInfoModel.h"
-#import "SelectCityController.h"
+//#import "DPUserInfoModel.h"
+//#import "SelectCityController.h"
+
+#import "Bee.h"
 
 #define POPLISTVIEW_SCREENINSET 40.
 #define POPLISTVIEW_HEADER_HEIGHT 50.
@@ -119,9 +121,9 @@
     if ([selectValue length] <= 0 || [selectValue isKindOfClass:[NSNull class]]){
         return;
     }
+    
 
-
-    [self postNotification:[SelectCityController SELECTED_CITY] withObject:[NSString stringWithFormat:@"%@-%@", _title, selectValue]];
+    [self postNotification:@"notify.SelectCityController.SELECTED_CITY" withObject:[NSString stringWithFormat:@"%@-%@", _title, selectValue]];
 //    if ([_saveKeyName isEqualToString:DPSAVESELECTCITYKEY]) {
 //        [DPUserInfoModel sharedInstance].city = [NSString stringWithFormat:@"%@-%@", _title, selectValue];
 //    }else if ([_saveKeyName isEqualToString:DPSAVESELECTHOMETWONKEY]) {
