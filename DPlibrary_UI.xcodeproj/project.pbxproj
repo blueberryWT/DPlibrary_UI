@@ -28,6 +28,8 @@
 		18B0CBF4171BDFCB00498D53 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0CBEE171BDFCB00498D53 /* success.png */; };
 		18B0CBF5171BDFCB00498D53 /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B0CBEF171BDFCB00498D53 /* success@2x.png */; };
 		18B0CC04171CE9BA00498D53 /* WToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CC03171CE9BA00498D53 /* WToast.m */; };
+		18B0CC0A171CF00F00498D53 /* LeveyPopListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CC07171CF00F00498D53 /* LeveyPopListView.m */; };
+		18B0CC0B171CF00F00498D53 /* LeveyPopListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0CC09171CF00F00498D53 /* LeveyPopListViewCell.m */; };
 		58B830789C82DFC6AC6F6586 /* ScrollPageMenuItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B83B5C91685BE972CEBF74 /* ScrollPageMenuItems.m */; };
 		58B830BE921140A21EDB6D9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B832F1340B936E1D89E219 /* AppDelegate.m */; };
 		58B831263314FBAD68DCDF66 /* MessageEntryInputField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B8354D386724E177093061 /* MessageEntryInputField@2x.png */; };
@@ -100,6 +102,10 @@
 		18B0CBEF171BDFCB00498D53 /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
 		18B0CC02171CE9BA00498D53 /* WToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WToast.h; sourceTree = "<group>"; };
 		18B0CC03171CE9BA00498D53 /* WToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WToast.m; sourceTree = "<group>"; };
+		18B0CC06171CF00F00498D53 /* LeveyPopListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyPopListView.h; sourceTree = "<group>"; };
+		18B0CC07171CF00F00498D53 /* LeveyPopListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyPopListView.m; sourceTree = "<group>"; };
+		18B0CC08171CF00F00498D53 /* LeveyPopListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyPopListViewCell.h; sourceTree = "<group>"; };
+		18B0CC09171CF00F00498D53 /* LeveyPopListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyPopListViewCell.m; sourceTree = "<group>"; };
 		58B830700B7538BAC2F49F63 /* MessageEntryInputField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageEntryInputField.png; sourceTree = "<group>"; };
 		58B83075F45394F4C3B07C33 /* carmeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carmeIcon.png; sourceTree = "<group>"; };
 		58B830C6332F2060B5D1886E /* ScrollPageMenuItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollPageMenuItems.h; sourceTree = "<group>"; };
@@ -284,6 +290,17 @@
 			path = WToast;
 			sourceTree = "<group>";
 		};
+		18B0CC05171CF00F00498D53 /* LeveyPopListView */ = {
+			isa = PBXGroup;
+			children = (
+				18B0CC06171CF00F00498D53 /* LeveyPopListView.h */,
+				18B0CC07171CF00F00498D53 /* LeveyPopListView.m */,
+				18B0CC08171CF00F00498D53 /* LeveyPopListViewCell.h */,
+				18B0CC09171CF00F00498D53 /* LeveyPopListViewCell.m */,
+			);
+			path = LeveyPopListView;
+			sourceTree = "<group>";
+		};
 		58B83015C543D5C6A68C3F4F /* DPTextField */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +413,7 @@
 		58B83D23FB0F22D2427E8EF8 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				18B0CC05171CF00F00498D53 /* LeveyPopListView */,
 				18B0CC01171CE9BA00498D53 /* WToast */,
 				18B0CBE8171BDFCB00498D53 /* popMenu */,
 				18B0CBE1171BDDC500498D53 /* QBTitleView */,
@@ -572,6 +590,8 @@
 				18B0CBE7171BDDC500498D53 /* UIImage+tintedImage.m in Sources */,
 				18B0CBF3171BDFCB00498D53 /* PopoverView.m in Sources */,
 				18B0CC04171CE9BA00498D53 /* WToast.m in Sources */,
+				18B0CC0A171CF00F00498D53 /* LeveyPopListView.m in Sources */,
+				18B0CC0B171CF00F00498D53 /* LeveyPopListViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
