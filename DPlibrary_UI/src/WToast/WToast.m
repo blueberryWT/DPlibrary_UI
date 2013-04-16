@@ -84,11 +84,11 @@
 
 	UILabel *textLabel = [[UILabel alloc] init];
 	textLabel.backgroundColor = [UIColor clearColor];
-	textLabel.textAlignment = UITextAlignmentCenter;
+	textLabel.textAlignment = NSTextAlignmentCenter;
 	textLabel.font = [UIFont systemFontOfSize:14];
-	textLabel.textColor = RGB(255, 255, 255);
+	textLabel.textColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:1];
 	textLabel.numberOfLines = 0;
-	textLabel.lineBreakMode = UILineBreakModeWordWrap;
+	textLabel.lineBreakMode = NSLineBreakByWordWrapping;
 	CGSize sz = [text sizeWithFont:textLabel.font
 				 constrainedToSize:CGSizeMake(width - 20.0f, 9999.0f)
 					 lineBreakMode:textLabel.lineBreakMode];
@@ -98,7 +98,7 @@
 	tmpRect.size.height = MAX(sz.height + 20.0f, 38.0f);
 
 	WToast *toast = [[WToast alloc] initWithFrame:tmpRect];
-	toast.backgroundColor = RGBA(0, 0, 0, 0.8);
+	toast.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.8];
 	CALayer *layer = toast.layer;
 	layer.masksToBounds = YES;
 	layer.cornerRadius = 5.0f;
@@ -157,7 +157,7 @@
 	tmpRect.size.height = MAX(sz.height + 20.0f, 38.0f);
 
 	WToast *toast = [[WToast alloc] initWithFrame:tmpRect];
-	toast.backgroundColor = RGBA(0, 0, 0, 0.8f);
+	toast.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.8];
 	CALayer *layer = toast.layer;
 	layer.masksToBounds = YES;
 	layer.cornerRadius = 5.0f;
